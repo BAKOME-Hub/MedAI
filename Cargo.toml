@@ -1,0 +1,15 @@
+[package]
+name = "medai"
+version = "8.0.0"
+edition = "2021"
+description = "MedAI v8.0 DA VINCI — Ultimate Medical AI System"
+
+[dependencies]
+axum = "0.7"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.12", features = ["json"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+rand = "0.8"
